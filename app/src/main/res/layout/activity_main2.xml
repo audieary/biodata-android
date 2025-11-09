@@ -10,11 +10,11 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="0dp"
         android:includeFontPadding="true"
-        android:text="Toast"
+        android:text="TOAST"
         app:cornerRadius="0dp"
-        app:iconPadding="0dp"/>
+        app:iconPadding="0dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -26,13 +26,13 @@
         android:text="0"
         android:textColor="#673AB7"
         android:textSize="250sp"
-        app:autoSizeTextType="none"/>
+        app:autoSizeTextType="none" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="Count"
+        android:text="COUNT"
         android:textColorLink="#673AB7"
-        app:cornerRadius="0dp"/>
+        app:cornerRadius="0dp" />
 </LinearLayout>

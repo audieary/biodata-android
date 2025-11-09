@@ -5,9 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:background="#CCA9DD"
     android:orientation="vertical"
-    android:background="#E0BBE4">
+    android:layerType="software">
 
     <TextView
         android:id="@+id/header"
@@ -27,7 +27,6 @@
         android:layout_width="match_parent"
         android:layout_height="246dp"
         android:layout_marginTop="40dp"
-        android:layout_marginBottom="20dp"
         android:contentDescription="Foto Profil"
         app:srcCompat="@drawable/whatsapp_image_2025_07_16_at_12_53_24_c162363e"/>
 
@@ -76,7 +75,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="40dp"
         android:text="Lanjut"
-        android:background="#673AB7"
-        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF8DA1"
+        android:textSize="16sp"
         app:cornerRadius="0dp"/>
 </LinearLayout>

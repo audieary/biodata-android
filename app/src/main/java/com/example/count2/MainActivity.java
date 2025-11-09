@@ -10,6 +10,8 @@ import androidx.core.view.WindowInsetsCompat;
 import android.widget.Button;
 import android.content.Intent;
 
+import com.example.count1.MainActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
